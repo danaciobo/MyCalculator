@@ -5,12 +5,13 @@
 
 .frame {
   height: 70vh;
-  width: 26vw;
+  width: 24vw;
+  background: linear-gradient(135deg, darkolivegreen, rgb(163, 183, 128));
   border-style: ridge;
   border-radius: 5px;
   border-color: darkolivegreen;
   margin: 4rem;
-  padding: 20px;
+  padding: 20px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 22vw;
+  width: 20vw;
     margin-top: 10px;
   padding: 5px;
   border-style: inset;
@@ -32,16 +33,16 @@
   font-size: 25px;
   text-align: right;
   border-radius: 10px;
-  background-color: rgb(226, 185, 118);
+  background-color: rgb(174, 216, 244);
 }
 
 .button-grid {
   height: 50vh;
-  width: 22vw;
+  width: 20vw;
   margin: 20px;
   display: grid;
-  grid-template-columns: 5vw 5vw 5vw 5vw;
-  gap: 10px;
+  grid-template-columns: 4.6vw 4.6vw  4.6vw  4.6vw;
+  gap: 9px;
 
 }
 .equal {
@@ -49,13 +50,21 @@
 }
 
 .buttons {
-  border-radius: 20px;
-  font-size: 20px;
-  background-color: rgb(37, 37, 69);
-  color:aliceblue;
+  border-radius: 15px;
+  font-size: 1.8vw;
+  background-color: rgb(166, 237, 25);
+  color: black;
   border-style: none;
 }
+.buttons:hover {
+  background-color: #262146;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
 
 .operators {
-  background-color: #CC5500;
+
+  background-color: rgb(22, 22, 118);
+  color:aliceblue;
 }
