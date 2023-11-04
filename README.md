@@ -1,1 +1,2 @@
 # MyCalculator
+Simple calculator
